@@ -245,6 +245,11 @@ For cc-mode support within color-identifiers-mode."
  'color-identifiers:modes-alist
  `(sql-mode . ("[^.][[:space:]]*" "\\_<\\([a-zA-Z_$]\\(?:\\s_\\|\\sw\\)*\\)" (nil))))
 
+;; shell
+(add-to-list
+ 'color-identifiers:modes-alist
+ `(sh-mode . ("[^.][[:space:]]*" "\\_<\\([a-zA-Z_$]\\(?:\\s_\\|\\sw\\)*\\)" (nil))))
+
 ;; Groovy
 (add-to-list
  'color-identifiers:modes-alist
